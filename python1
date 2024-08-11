@@ -1,0 +1,26 @@
+import datetime
+def assitannt(str):
+    print("Hello sir this is your alxa!"
+          "how can I help you ")
+def tell_date():
+    today = datetime.datetime.now()
+    current_date = today.strftime("%Y-%m-%d")
+    print(f"Today's date is {current_date}.")
+def tell_time():
+    now = datetime.datetime.now()
+    current_time = now.strftime("%H:%M")
+    print(f"The current time is {current_time}.")
+
+
+
+str=input(str())
+
+
+assitannt(str)
+s=input()
+
+if s=="date":
+    tell_date()
+
+else:
+    tell_time()
